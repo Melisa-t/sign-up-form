@@ -21,7 +21,7 @@
   }
 
   .header-side{
-    width: 30%;
+    width: 35%;
     height: 100%;
     background: url(img/by-tomoko-uji.jpg) no-repeat fixed center;
     background-size: cover;
@@ -29,7 +29,7 @@
   }
 
   .sign-up-side{
-    width: 70%;
+    width: 65%;
     height: 100%;
     display: flex;
     flex-direction: column;
