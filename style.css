@@ -94,8 +94,6 @@ form{
     box-shadow: 10px 10px 8px rgb(237, 237, 237);
     padding: 20px 0;
     background-color: rgb(255, 255, 255);
-    border:#fff5f5 solid 1px;
-
 }
 
 input{
@@ -139,6 +137,14 @@ label {
     align-items: center;
     border-radius: 5px;
 }
+
+.create-account-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
 .already-signed{
     margin-left: 50px;
     margin-top: 30px;
@@ -146,6 +152,20 @@ label {
 }
 
 .log-in{
-    color: purple;
+    color: rgb(78, 0, 62);
 }
 
+input:focus{
+    outline-color:rgb(78, 0, 62);
+}
+
+input:active{
+    outline-color:rgb(78, 0, 62);
+}
+
+input:hover{
+    background:#F9FAFB;
+}
+.log-in:hover{
+cursor: pointer;
+}
