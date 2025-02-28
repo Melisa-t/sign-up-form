@@ -34,16 +34,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(255, 250, 251);
+    background-color: #F9FAFB;
   }
 .upper-text{
-    width: 60%;
+    width: 70%;
     margin-left: 50px;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
 }
 legend {
     margin-left: 50px;
+    margin-bottom: 20px;
 }
-.upper-text > p {
+.upper-text > p + p{
     margin-top: 10px;
 }
 
@@ -87,16 +90,19 @@ fieldset {
 }
 
 form{
-    box-shadow: 10px 10px 8px #fff5f5;
-    margin: 30px 0;
-    background-color: white;
+    box-shadow: 10px 10px 8px rgb(237, 237, 237);
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
     border:#fff5f5 solid 1px;
+
 }
 
 input{
     border: #E5E7EB solid 1px;
     border-radius: 2px;
-    margin: 15px 0;
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 300px;
 }
 
 .form > form > fieldset > div {
