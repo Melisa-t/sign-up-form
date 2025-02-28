@@ -1,0 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Love+Light&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+
+  .logo-text{
+    font-family: "Love Light";
+  }
