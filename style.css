@@ -111,13 +111,6 @@ input{
     margin-left: 50px;
 }
 
-.create-account-btn{
-    margin-left: 50px;
-}
-.already-signed{
-    margin-left: 50px;
-}
-
 .input-wrap{
     display: flex;
     flex-direction: row;
@@ -131,4 +124,27 @@ input{
 
 label {
     color: rgba(78, 0, 62, 0.678);
+}
+
+
+.create-account-btn{
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: rgb(78, 0, 62);
+    color: white;
+    width: 20%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.already-signed{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: black;
+}
+
+.log-in{
+    color: purple;
 }
