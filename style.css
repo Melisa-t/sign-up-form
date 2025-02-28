@@ -37,7 +37,7 @@
     background-color: rgb(255, 250, 251);
   }
 .upper-text{
-    width: 40%;
+    width: 60%;
     margin-left: 50px;
 }
 legend {
@@ -45,7 +45,6 @@ legend {
 }
 .upper-text > p {
     margin-top: 10px;
-    
 }
 
   .header {
@@ -97,11 +96,11 @@ form{
 input{
     border: #E5E7EB solid 1px;
     border-radius: 2px;
-    
+    margin: 15px 0;
 }
 
 .form > form > fieldset > div {
-    margin-top: 15px;
+
     margin-left: 50px;
 }
 
@@ -110,4 +109,15 @@ input{
 }
 .already-signed{
     margin-left: 50px;
+}
+
+.input-wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+}
+
+.input-wrap > div > label {
+    display: flex;
+    flex-direction: column;
 }
