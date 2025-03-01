@@ -177,7 +177,7 @@ input:hover{
 cursor: pointer;
 }
 
-input:invalid {
+input[type=password]:invalid {
     border: 2px solid rgb(184, 0, 0);
   }
   
