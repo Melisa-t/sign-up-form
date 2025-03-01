@@ -22,7 +22,7 @@
   }
 
   .header-side{
-    width: 35%;
+    width: 30%;
     height: 100%;
     background: url(img/by-tomoko-uji.jpg) no-repeat fixed center;
     background-size: cover;
@@ -30,7 +30,7 @@
   }
 
   .sign-up-side{
-    width: 65%;
+    width: 70%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -42,7 +42,11 @@
     margin-left: 50px;
     margin-bottom: 30px;
     font-size: 1.7rem;
+
 }
+
+
+
 legend {
     margin-left: 50px;
     margin-bottom: 20px;
@@ -93,7 +97,7 @@ fieldset {
 
 form{
     box-shadow: 10px 10px 8px rgb(237, 237, 237);
-    padding: 20px 0;
+    padding: 50px 0;
     background-color: rgb(255, 255, 255);
 }
 
@@ -128,7 +132,7 @@ label {
 
 .create-account-btn{
     margin-left: 50px;
-    margin-top: 30px;
+    margin-top: 60px;
     background-color: rgb(78, 0, 62);
     color: white;
     width: 20%;
